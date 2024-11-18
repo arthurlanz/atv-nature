@@ -82,3 +82,92 @@ section.servico ul li p.botao a{
     background-color: #3b8686;
     padding: 15px 25px 15px 25px;
 }
+/*=============================================================
+                            INFORMAÇÕES
+=============================================================*/
+section.informacoes {
+    padding: 4vw 9vw 2vw 9vw;
+    background: linear-gradient(rgba(121, 189, 154, 0.2),rgba(121, 189, 154, 0.2)), url(../src/images/back-numeros.png) no-repeat center center;
+    background-size: cover;
+}
+section.informacoes ul {
+    display: flex;
+    justify-content: space-between;
+}
+section.informacoes ul li{
+    text-align: center;
+    margin: 0  2vw;
+}
+section.informacoes ul li span{
+    color: white;
+    font-size: 3.45rem;
+
+}
+section.informacoes ul li p {
+    color: white;
+    font-size: 2.3rem;
+    margin: 1vw 0;
+    font-weight: 600;
+}
+/*=============================================================
+                        ATIVIDADES
+=============================================================*/
+section.atividades {
+    padding: 9vw;
+    display: flex;
+}
+section.atividades h2 {
+    font-size: 2rem;
+    color: #0B486B;   
+}
+section.atividades div {
+    margin: 0 5vw;
+}
+section.atividades div p.texto {
+    color: #747474;
+    margin: 2vw 0 2vw 0;
+    font-size: 0.8rem;
+    line-height: 1.18rem;
+}
+section.atividades div p a.primeiro {
+    background-color: #0B486B;
+    padding: 15px 30px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+section.atividades div p a.segundo {
+    margin: 0 1vw;
+    background-color: #0B486B;
+    padding: 15px 19px;
+    font-size: 0.8rem;
+    font-weight: 600;
+} 
+/*=============================================================
+                        FOOTER
+=============================================================*/
+footer {
+    background-color: #3b8686;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 15vw;
+    font-size: 0.6rem;
+}
+footer div.logos ul {
+    display: flex;
+    margin: 0 0 2vw 0;
+}
+footer div.logos ul li {
+    margin:  0 1vw 0 0;
+    font-size: 2rem;
+}
+footer div.contato p.email {
+    margin: 10px 0;
+}
+footer div.links ul {
+    margin: 1vw 0;
+    text-align: right;
+}
+footer div.links ul li {
+    line-height: 1.2rem;
+}
